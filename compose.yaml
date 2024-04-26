@@ -44,8 +44,6 @@ services:
 
       - airflow_logs:/usr/local/airflow/logs
 
-
-
   webserver:
     image: ml-pipeline-practice_fe9a22/airflow:latest
     command: >
